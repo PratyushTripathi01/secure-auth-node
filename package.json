@@ -1,0 +1,37 @@
+{
+  "name": "secure-auth-node",
+  "version": "1.0.0",
+  "description": "A lightweight JWT authentication and role-based access control middleware for Node.js (Express).",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/server.js"
+  },
+  "keywords": [
+    "jwt",
+    "express",
+    "authentication",
+    "middleware",
+    "access-token",
+    "refresh-token",
+    "nodejs",
+    "auth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratyushTripathi01/secure-auth-node.git"
+  },
+  "author": "Pratyush Tripathi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/PratyushTripathi01/secure-auth-node/issues"
+  },
+  "homepage": "https://github.com/PratyushTripathi01/secure-auth-node#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0"
+  },
+  "devDependencies": {
+    "express": "^5.1.0"
+  }
+}
